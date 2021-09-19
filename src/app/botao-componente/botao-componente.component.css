@@ -1,0 +1,44 @@
+.btn-component
+{
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    text-align: center;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+.btn-primary{
+    background-color: #048BA8;
+    margin: 2px;
+}
+
+.btn-primary:hover , .btn-success:hover, .btn-cancel:hover, .btn-orange:hover, .btn-grey:hover{
+    opacity:0.5;
+}
+
+.btn-cancel{
+    background-color: #FF0035;
+    margin: 2px;
+}
+
+.btn-success{
+    background-color: #32965D;
+    margin: 2px;
+}
+
+.btn-orange{
+    background-color: #F18F01;
+    margin: 2px;
+}
+
+.btn-grey{
+    background-color: #312F2F;
+    margin: 2px;
+}
+
+
+
+
