@@ -7,6 +7,23 @@
     display: flex;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
 .standard-height{
     margin-top: 2%;
+}
+.standard-height-text{
+    margin-top: 0.3%;
+}
+
+body{
+    font-family: 'Roboto';
+}
+
+@font-face {
+    font-family: 'Roboto'; /*a name to be used later*/
+    /* src: url('assets/fonts/Roboto-Thin.ttf'); URL to font */
 }

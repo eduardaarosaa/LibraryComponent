@@ -24,6 +24,10 @@
 .btn-primary:hover , .btn-success:hover, .btn-cancel:hover, .btn-orange:hover, .btn-grey:hover{
     opacity:0.5;
 }
+.btn-off:hover{
+    background-color: #312F2F;
+    color:#fff;
+}
 
 .btn-cancel{
     background-color: #FF0035;
@@ -44,6 +48,15 @@
     background-color: #312F2F;
     margin: 2px;
 }
+.btn-off{
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color:#312F2F;
+    /* margin: 2px; */
+}
+
+
 
 
 

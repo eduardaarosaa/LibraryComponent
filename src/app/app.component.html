@@ -3,15 +3,41 @@
   <head>
     <meta charset="UTF-8">
     <title>Library Components</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
+      <div class="flex-row standard-height">
+        <h3>Botões</h3>
+      </div>
       <div class="flex-row standard-height">
         <app-botao-componente componentClass="btn-component btn-primary" [label]="'btn-primary'"></app-botao-componente>
         <app-botao-componente componentClass="btn-component btn-success" [label]="'btn-success'"></app-botao-componente>
         <app-botao-componente componentClass="btn-component btn-cancel" [label]="'btn-cancel'"></app-botao-componente>
         <app-botao-componente componentClass="btn-component btn-grey" [label]="'btn-grey'"></app-botao-componente>
         <app-botao-componente componentClass="btn-component btn-orange" [label]="'btn-orange'" ></app-botao-componente>
+        <app-botao-componente componentClass="btn-component btn-off" [label]="'btn-off'" ></app-botao-componente>
+      </div>
+     
+      <div class="flex-column standard-height">
+        <div class="flex-row standard-text">
+          <h3>Menus</h3>
+        </div>
+        <app-menu-nav componentClass="menu-nav menu-nav-primary"></app-menu-nav>
+        <app-menu-nav componentClass="menu-nav menu-nav-success"></app-menu-nav>
+        <app-menu-nav componentClass="menu-nav menu-nav-cancel"></app-menu-nav>
+        <app-menu-nav componentClass="menu-nav menu-nav-grey"></app-menu-nav>
+        <app-menu-nav componentClass="menu-nav menu-nav-orange"></app-menu-nav>
+      </div>
+
+      <div class="flex-column standard-height">
+        <div class="flex-row standard-text">
+          <h3>Inputs</h3>
+        </div>
+         <app-input-component></app-input-component>
+         
       </div>
    </div>
   </body>
