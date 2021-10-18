@@ -1,0 +1,12 @@
+
+.menu-nav{
+    display: flex;
+    margin: 10px;
+    color:#fff;
+    padding: 15px;
+}
+
+.menu-nav-pink{
+    background-color: #F75584;
+}
+

@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { BotaoComponenteComponent } from './botao-componente/botao-componente.component';
 import { MenuNavComponent } from './menu-nav/menu-nav.component';
 import { InputComponentComponent } from './input-component/input-component.component';
+import { AlbumComponentComponent } from './album-component/album-component.component';
+import { NavBarComponentComponent } from './nav-bar-component/nav-bar-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BotaoComponenteComponent,
     MenuNavComponent,
-    InputComponentComponent
+    InputComponentComponent,
+    AlbumComponentComponent,
+    NavBarComponentComponent
   ],
   imports: [
     BrowserModule,
